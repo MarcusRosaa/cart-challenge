@@ -1,7 +1,7 @@
-# Link para o json-server na heroku
+# Site link
 
-https://cart-fakeapirest.herokuapp.com/
+lalalal
 
-## Resources
+## API routes
 https://cart-fakeapirest.herokuapp.com//standard-shipping
 https://cart-fakeapirest.herokuapp.com//free-shipping
