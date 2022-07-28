@@ -58,7 +58,7 @@ export default function Cart({ open }) {
 
               <div className="prices">
                 {product.sellingPrice < product.price && (
-                  <small>{formatPrice(product.sellingPrice)}</small>
+                  <small>{formatPrice(product.price)}</small>
                 )}
 
                 {
