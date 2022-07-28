@@ -29,6 +29,24 @@ export const Title = styled.h3`
 export const CardContainer = styled.div`
   overflow: auto;
   max-height: 390px;
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ccc;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3335;
+}
 `;
 
 export const Card = styled.div`
